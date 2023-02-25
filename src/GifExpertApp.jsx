@@ -12,13 +12,15 @@ const GifExpertApp = () => {
 
   return (
     <>
-      <h1>GifExpertApp</h1>
+      <main className="main">
+        <h1 className="main__title">GifExpertApp</h1>
 
-      <AddCategory onNewCategory={onAddCategory} />
+        <AddCategory onNewCategory={onAddCategory} />
 
-      {categories.map((category) => (
-        <GifGrid key={category} category={category} />
-      ))}
+        {categories.map((category) => (
+          <GifGrid key={category} category={category} />
+        ))}
+      </main>
     </>
   );
 };
