@@ -23,6 +23,10 @@ body {
   color: var(--color-text);
 }
 
+.main__title span {
+  color: var(--color-indigo);
+}
+
 .main {
   max-width: 1400px;
   margin: 3rem auto;

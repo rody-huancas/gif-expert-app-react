@@ -13,7 +13,9 @@ const GifExpertApp = () => {
   return (
     <>
       <main className="main">
-        <h1 className="main__title">GifExpertApp</h1>
+        <h1 className="main__title">
+          GifExp<span>ertApp</span>
+        </h1>
 
         <AddCategory onNewCategory={onAddCategory} />
 
